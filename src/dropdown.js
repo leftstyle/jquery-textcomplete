@@ -343,7 +343,7 @@
 
     _enter: function (e) {
       var datum = this.data[parseInt(this._getActiveElement().data('index'), 10)];
-      this.completer.select(datum.value, datum.strategy, e);
+      this.completer.select(datum.term, datum.strategy, e);
       this.deactivate();
     },
 
